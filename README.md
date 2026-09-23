@@ -195,8 +195,8 @@ android/app/src/main/assets/
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/<your-username>/self-leveling.git
-cd self-leveling
+git clone https://github.com/Mazenalodini/self_leveling.git
+cd self_leveling
 ```
 
 ### 2. Firebase Configuration
