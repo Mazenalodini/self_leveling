@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SELF LEVELING</string>
+
+    <!-- ═══ Foreground Service ═══ -->
+    <string name="tracking_notification_title">Self Leveling Active</string>
+    <string name="tracking_notification_text">Monitoring your behavior patterns</string>
+    <string name="tracking_channel_name">Self Leveling Tracking</string>
+    <string name="tracking_channel_desc">Background usage tracking</string>
+    <string name="accessibility_service_label">Self Leveling Live Detection</string>
+    <string name="accessibility_service_description">Improves immediate foreground app detection for blocking overlays.</string>
+
+    <!-- ═══ Notification Channels ═══ -->
+    <string name="channel_s1_name">Self Leveling Reminders</string>
+    <string name="channel_s1_desc">Gentle behavioral reminders (S1)</string>
+    <string name="channel_s2_name">Self Leveling Alerts</string>
+    <string name="channel_s2_desc">Strong behavioral alerts (S2) — appears as heads-up</string>
+    <string name="channel_s4_name">Limited Access Monitor</string>
+    <string name="channel_s4_desc">Persistent notification during S4 limited access window</string>
+    <string name="channel_s4_warn_name">Limited Access Warnings</string>
+    <string name="channel_s4_warn_desc">Heads-up warnings when limited access time is running out</string>
+
+    <!-- ═══ Notification Actions ═══ -->
+    <string name="action_open_app">Open Self Leveling</string>
+
+    <!-- ═══ S2 Notification Re-entry ═══ -->
+    <string name="reentry_detected">Re-entry #%d detected</string>
+
+    <!-- ═══ Overlay — Stage Badges ═══ -->
+    <string name="badge_s1">⚠  SOFT WARNING  ⚠</string>
+    <string name="badge_s2">⚠  DISTRACTION ALERT  ⚠</string>
+    <string name="badge_s3">🔒  SYSTEM INTERVENTION  🔒</string>
+    <string name="badge_s4">🔒  LIMITED ACCESS  🔒</string>
+    <string name="badge_s5">⛔  FULL LOCKDOWN  ⛔</string>
+    <string name="badge_default">⚠  SYSTEM ALERT  ⚠</string>
+
+    <!-- ═══ Overlay — Timer ═══ -->
+    <string name="timer_label">⏱  TIME REMAINING</string>
+
+    <!-- ═══ Overlay — XP Penalty ═══ -->
+    <string name="xp_penalty_format">📉 -%d Self Control Points</string>
+
+    <!-- ═══ Overlay — Instructions ═══ -->
+    <string name="overlay_instruction">Press Home to return to your device</string>
+    <string name="overlay_branding">SELF LEVELING · BEHAVIORAL SYSTEM</string>
+    <string name="exit_app_action">Exit App</string>
+
+    <!-- ═══ Overlay — Usage Limit ═══ -->
+    <string name="usage_limit_title">ACCESS RESTRICTED</string>
+    <string name="usage_limit_message">Daily usage limit exceeded.</string>
+    <string name="usage_limit_reason">Usage limit reached</string>
+    <string name="usage_limit_reset">This block resets at midnight</string>
+
+    <!-- ═══ EscalationEvaluator — S1 ═══ -->
+    <string name="s1_title">Stay Mindful</string>
+    <string name="s1_message">You\'ve been using %1$s for %2$d min today. Consider taking a break.</string>
+    <string name="s1_reason">Behavioral warning</string>
+    <string name="s1_reminder">Remember: %s</string>
+    <string name="s1_suggestion">Try completing a habit or starting a focus session instead.</string>
+
+    <!-- ═══ EscalationEvaluator — S2 ═══ -->
+    <string name="s2_title">⚠ Distraction Alert</string>
+    <string name="s2_message">%1$s is consuming your time. %2$d min today and counting.</string>
+    <string name="s2_reason">Sustained distraction</string>
+    <string name="s2_reminder">Your goal: %s</string>
+    <string name="s2_suggestion">Switch to a productive app or start a focus session.</string>
+
+    <!-- ═══ EscalationEvaluator — S3 ═══ -->
+    <string name="s3_title">SYSTEM INTERVENTION</string>
+    <string name="s3_message">%1$s has been blocked.\nYour distraction level triggered this.</string>
+    <string name="s3_reason">Lock #%1$d · %2$d min today</string>
+    <string name="s3_reminder">Focus on: %s</string>
+    <string name="s3_suggestion">Use this time to complete a habit or take a mindful break.</string>
+    <string name="s3_reset">Lock expires in %1$dm %2$ds</string>
+
+    <!-- ═══ EscalationEvaluator — S4 (Limited Access) ═══ -->
+    <string name="s4_title">LIMITED ACCESS</string>
+    <string name="s4_message">%1$s — %2$d min remaining in your limited access window.</string>
+    <string name="s4_reason">Monitored limited access — use wisely</string>
+    <string name="s4_reminder">Your identity: %s — act accordingly.</string>
+    <string name="s4_suggestion">Consider wrapping up and switching to something productive.</string>
+    <string name="s4_reset">Limited access: %1$dm %2$ds remaining</string>
+    <string name="s4_notification_title">⏱ Limited Access Active</string>
+    <string name="s4_notification_text">%1$s — %2$dm %3$ds remaining</string>
+    <string name="s4_warning_title">⚠ Limited Access Ending Soon</string>
+    <string name="s4_warning_message">%1$s — 2 minutes remaining. Consider switching now.</string>
+    <string name="s4_final_warning_title">⛔ Last Warning</string>
+    <string name="s4_final_warning_message">%1$s — 30 seconds remaining. Access will be restricted.</string>
+
+    <!-- ═══ EscalationEvaluator — S5 ═══ -->
+    <string name="s5_title">FULL LOCKDOWN</string>
+    <string name="s5_message">%1$s is fully locked.\nLock #%2$d · Repeated interventions ignored.</string>
+    <string name="s5_reason">Severe repeated distraction</string>
+    <string name="s5_reset">Locked for %1$dm %2$ds</string>
+
+    <!-- ═══ EscalationEvaluator — S0 (fallback) ═══ -->
+    <string name="s0_title">Notice</string>
+    <string name="s0_message">Monitoring %s</string>
+</resources>

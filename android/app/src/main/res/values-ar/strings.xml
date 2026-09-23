@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SELF LEVELING</string>
+
+    <!-- ═══ Foreground Service ═══ -->
+    <string name="tracking_notification_title">Self Leveling نشط</string>
+    <string name="tracking_notification_text">مراقبة أنماط سلوكك</string>
+    <string name="tracking_channel_name">تتبع Self Leveling</string>
+    <string name="tracking_channel_desc">تتبع الاستخدام في الخلفية</string>
+    <string name="accessibility_service_label">كشف مباشر لـ Self Leveling</string>
+    <string name="accessibility_service_description">يحسن كشف التطبيق الأمامي فوراً لتسريع إظهار وإخفاء طبقة الحجب.</string>
+
+    <!-- ═══ Notification Channels ═══ -->
+    <string name="channel_s1_name">تذكيرات Self Leveling</string>
+    <string name="channel_s1_desc">تذكيرات سلوكية لطيفة (S1)</string>
+    <string name="channel_s2_name">تنبيهات Self Leveling</string>
+    <string name="channel_s2_desc">تنبيهات سلوكية قوية (S2) — تظهر فوق التطبيقات</string>
+    <string name="channel_s4_name">مراقب الوصول المحدود</string>
+    <string name="channel_s4_desc">إشعار مستمر أثناء نافذة الوصول المحدود S4</string>
+    <string name="channel_s4_warn_name">تحذيرات الوصول المحدود</string>
+    <string name="channel_s4_warn_desc">تحذيرات عاجلة عند اقتراب نهاية وقت الوصول المحدود</string>
+
+    <!-- ═══ Notification Actions ═══ -->
+    <string name="action_open_app">فتح Self Leveling</string>
+
+    <!-- ═══ S2 Notification Re-entry ═══ -->
+    <string name="reentry_detected">إعادة دخول #%d مكتشفة</string>
+
+    <!-- ═══ Overlay — Stage Badges ═══ -->
+    <string name="badge_s1">⚠  تحذير خفيف  ⚠</string>
+    <string name="badge_s2">⚠  تنبيه تشتت  ⚠</string>
+    <string name="badge_s3">🔒  تدخل النظام  🔒</string>
+    <string name="badge_s4">🔒  وصول محدود  🔒</string>
+    <string name="badge_s5">⛔  إغلاق كامل  ⛔</string>
+    <string name="badge_default">⚠  تنبيه النظام  ⚠</string>
+
+    <!-- ═══ Overlay — Timer ═══ -->
+    <string name="timer_label">⏱  الوقت المتبقي</string>
+
+    <!-- ═══ Overlay — XP Penalty ═══ -->
+    <string name="xp_penalty_format">📉 -%d نقاط تحكم ذاتي</string>
+
+    <!-- ═══ Overlay — Instructions ═══ -->
+    <string name="overlay_instruction">اضغط زر الرئيسية للعودة لجهازك</string>
+    <string name="overlay_branding">SELF LEVELING · نظام سلوكي</string>
+    <string name="exit_app_action">الخروج من التطبيق</string>
+
+    <!-- ═══ Overlay — Usage Limit ═══ -->
+    <string name="usage_limit_title">الوصول مقيد</string>
+    <string name="usage_limit_message">تم تجاوز حد الاستخدام اليومي.</string>
+    <string name="usage_limit_reason">تم بلوغ حد الاستخدام</string>
+    <string name="usage_limit_reset">يُعاد الضبط عند منتصف الليل</string>
+
+    <!-- ═══ EscalationEvaluator — S1 ═══ -->
+    <string name="s1_title">ابقَ واعياً</string>
+    <string name="s1_message">لقد استخدمت %1$s لمدة %2$d دقيقة اليوم. فكّر في أخذ استراحة.</string>
+    <string name="s1_reason">تحذير سلوكي</string>
+    <string name="s1_reminder">تذكّر: %s</string>
+    <string name="s1_suggestion">حاول إكمال عادة أو بدء جلسة تركيز بدلاً من ذلك.</string>
+
+    <!-- ═══ EscalationEvaluator — S2 ═══ -->
+    <string name="s2_title">⚠ تنبيه تشتت</string>
+    <string name="s2_message">%1$s يستهلك وقتك. %2$d دقيقة اليوم ومستمر.</string>
+    <string name="s2_reason">تشتت مستمر</string>
+    <string name="s2_reminder">هدفك: %s</string>
+    <string name="s2_suggestion">انتقل لتطبيق منتج أو ابدأ جلسة تركيز.</string>
+
+    <!-- ═══ EscalationEvaluator — S3 ═══ -->
+    <string name="s3_title">تدخل النظام</string>
+    <string name="s3_message">تم حظر %1$s.\nمستوى التشتت أدى لهذا التدخل.</string>
+    <string name="s3_reason">قفل #%1$d · %2$d دقيقة اليوم</string>
+    <string name="s3_reminder">ركّز على: %s</string>
+    <string name="s3_suggestion">استغل هذا الوقت لإكمال عادة أو أخذ استراحة واعية.</string>
+    <string name="s3_reset">ينتهي القفل خلال %1$d د %2$d ث</string>
+
+    <!-- ═══ EscalationEvaluator — S4 (وصول محدود) ═══ -->
+    <string name="s4_title">وصول محدود</string>
+    <string name="s4_message">%1$s — %2$d دقيقة متبقية في نافذة الوصول المحدود.</string>
+    <string name="s4_reason">وصول محدود تحت المراقبة — استخدم بحكمة</string>
+    <string name="s4_reminder">هويتك: %s — تصرف وفقاً لها.</string>
+    <string name="s4_suggestion">فكّر في الانتقال لشيء مفيد.</string>
+    <string name="s4_reset">وصول محدود: %1$d د %2$d ث متبقية</string>
+    <string name="s4_notification_title">⏱ الوصول المحدود نشط</string>
+    <string name="s4_notification_text">%1$s — %2$d د %3$d ث متبقية</string>
+    <string name="s4_warning_title">⚠ الوصول المحدود ينتهي قريباً</string>
+    <string name="s4_warning_message">%1$s — دقيقتان متبقيتان. فكّر في التبديل الآن.</string>
+    <string name="s4_final_warning_title">⛔ تحذير أخير</string>
+    <string name="s4_final_warning_message">%1$s — 30 ثانية متبقية. سيتم تقييد الوصول.</string>
+
+    <!-- ═══ EscalationEvaluator — S5 ═══ -->
+    <string name="s5_title">إغلاق كامل</string>
+    <string name="s5_message">%1$s مغلق بالكامل.\nقفل #%2$d · التدخلات المتكررة تم تجاهلها.</string>
+    <string name="s5_reason">تشتت حاد متكرر</string>
+    <string name="s5_reset">مغلق لمدة %1$d د %2$d ث</string>
+
+    <!-- ═══ EscalationEvaluator — S0 (fallback) ═══ -->
+    <string name="s0_title">ملاحظة</string>
+    <string name="s0_message">مراقبة %s</string>
+</resources>

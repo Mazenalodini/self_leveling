@@ -1,0 +1,30 @@
+{
+    "mean": {
+        "duration_minutes": 11.656537053347538,
+        "launch_count_today": 25.0234302450175,
+        "session_index_today": 14.9951425101793,
+        "total_app_usage_today_minutes": 314.23878418277883,
+        "total_distracting_today_minutes": 141.78309133948005,
+        "daily_limit_minutes": 19.964283163083078,
+        "ignored_warning_count": 0.5029644974641045,
+        "reentry_count": 1.4869633545253231,
+        "hour_of_day": 11.481391527966283,
+        "day_of_week": 3.002357311236517,
+        "user_sensitivity": 0.5035302651957769,
+        "escalation_strength": 0.5065264373084805
+    },
+    "std": {
+        "duration_minutes": 11.214122212739197,
+        "launch_count_today": 14.121750545873033,
+        "session_index_today": 8.395909552479816,
+        "total_app_usage_today_minutes": 163.52896057310954,
+        "total_distracting_today_minutes": 102.71760229940686,
+        "daily_limit_minutes": 28.271618057147386,
+        "ignored_warning_count": 1.1265908174737134,
+        "reentry_count": 2.6763852734923357,
+        "hour_of_day": 6.9293419511982925,
+        "day_of_week": 2.007574096879893,
+        "user_sensitivity": 0.28994872644696046,
+        "escalation_strength": 0.2889138461229328
+    }
+}

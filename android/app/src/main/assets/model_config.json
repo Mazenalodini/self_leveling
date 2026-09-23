@@ -1,0 +1,49 @@
+{
+    "input_feature_order": [
+        "duration_minutes",
+        "launch_count_today",
+        "session_index_today",
+        "total_app_usage_today_minutes",
+        "total_distracting_today_minutes",
+        "daily_limit_minutes",
+        "ignored_warning_count",
+        "reentry_count",
+        "hour_of_day",
+        "day_of_week",
+        "user_sensitivity",
+        "escalation_strength",
+        "is_focus_mode",
+        "is_blacklisted",
+        "is_whitelisted",
+        "daily_limit_exceeded",
+        "returned_after_block",
+        "current_escalation_stage",
+        "app_category_enc"
+    ],
+    "category_mapping": {
+        "browser": 0,
+        "education": 1,
+        "games": 2,
+        "health": 3,
+        "messaging": 4,
+        "productivity": 5,
+        "reading": 6,
+        "short_video": 7,
+        "social": 8,
+        "streaming": 9,
+        "system": 10,
+        "unknown": 11
+    },
+    "stage_mapping": {
+        "S0": 0,
+        "S1": 1,
+        "S2": 2,
+        "S3": 3,
+        "S4": 4,
+        "S5": 5
+    },
+    "normalization_method": "StandardScaler",
+    "selected_threshold": 0.11263541132211685,
+    "version": "1.0.0",
+    "model_name": "BehaviorDistractionClassifier"
+}

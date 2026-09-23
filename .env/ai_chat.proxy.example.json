@@ -1,0 +1,6 @@
+{
+  "AI_CHAT_PROVIDER_ID": "deepseek-proxy",
+  "AI_CHAT_ENDPOINT": "https://YOUR_DOMAIN/api/ai/chat",
+  "AI_CHAT_USE_PROXY": "true",
+  "AI_CHAT_MODEL": "deepseek-v4-flash"
+}

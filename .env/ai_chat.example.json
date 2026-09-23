@@ -1,0 +1,4 @@
+{
+  "AI_CHAT_PROVIDER_ID": "firebase_ai",
+  "AI_CHAT_MODEL": "gemini-2.5-flash"
+}
